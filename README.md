@@ -20,8 +20,9 @@ Siga as etapas abaixo para configurar e executar o projeto localmente. Certifiqu
 
 1. Navegue até a pasta do projeto frontend: cd cep-client
 2. Instale as dependências do Node.js: npm install
-3. Crie o banco de dados `cep-api` no banco de dados configurado.
-4. Execute as migrações para criar as tabelas do banco de dados: php artisan migrate:fresh
-5. Inicie o servidor Laravel: php artisan serve
-6. Inicie o projeto vue: npm run dev
-7. O servidor estará disponível em `http://localhost:8000`.
+3. Instale as dependências do PHP: composer install
+4. Crie o banco de dados `cep-api` no banco de dados configurado.
+5. Execute as migrações para criar as tabelas do banco de dados: php artisan migrate:fresh
+6. Inicie o servidor Laravel: php artisan serve
+7. Inicie o projeto vue: npm run dev
+8. O servidor estará disponível em `http://localhost:8000`.
